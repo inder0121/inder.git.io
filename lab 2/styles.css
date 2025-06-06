@@ -1,0 +1,52 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.date {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.author-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px 0;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+  margin: 15px 0;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
