@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+  font-family: sans-serif;
+  background: url("../images/bats.gif") repeat;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 800px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+header {
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid black;
+  background: linear-gradient(45deg, white, orange 60%, black);
+}
+
+header img {
+  float: left;
+  margin-right: 15px;
+}
+
+header h1 {
+  font-style: italic;
+  color: black;
+  text-shadow: 2px 2px black;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 2em;
+}
+
+header h2 {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+h2, h3, h4 {
+  font-size: 1.5em;
+}
+
+.dropcap {
+  font-size: 2.5em;
+  float: left;
+  line-height: 1;
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: green;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px;
+  border-top: 2px solid black;
+  background: linear-gradient(45deg, black, orange 40%, white);
+}

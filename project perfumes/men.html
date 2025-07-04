@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore the latest 2025 men's fragrances at Fragrance Finder. Filter by season, scent, or new releases to find your perfect signature scent." />
+  <meta name="keywords" content="men's fragrances, 2025 new releases, signature scents, cologne, perfume" />
+  <title>Men's Fragrances - Fragrance Finder</title>
+  <link rel="stylesheet" href="menstyle.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Fragrance Finder</div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="men.html" class="active">Men’s</a></li>
+        <li><a href="women.html">Women’s</a></li>
+        <li><a href="seasonal.html">Seasonal</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Signature Scent Tool -->
+  <section class="hero">
+    <h1>Discover Your Signature Scent</h1>
+    <p>Explore the best men's fragrances of 2025, including new releases.</p>
+    <button id="signature-scent-btn" aria-label="Start quiz to find your signature scent">Find Your Scent</button>
+  </section>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar" role="region" aria-label="Fragrance filters">
+      <h3>Filter Fragrances</h3>
+      <div class="filter-group">
+        <h4>By Season</h4>
+        <label for="winter"><input type="checkbox" id="winter" name="season" value="winter" /> Winter</label>
+        <label for="spring"><input type="checkbox" id="spring" name="season" value="spring" /> Spring</label>
+        <label for="summer"><input type="checkbox" id="summer" name="season" value="summer" /> Summer</label>
+        <label for="fall"><input type="checkbox" id="fall" name="season" value="fall" /> Fall</label>
+      </div>
+      <div class="filter-group">
+        <h4>By Scent</h4>
+        <label for="woody"><input type="checkbox" id="woody" name="scent" value="woody" /> Woody</label>
+        <label for="citrus"><input type="checkbox" id="citrus" name="scent" value="citrus" /> Citrus</label>
+        <label for="spicy"><input type="checkbox" id="spicy" name="scent" value="spicy" /> Spicy</label>
+        <label for="fresh"><input type="checkbox" id="fresh" name="scent" value="fresh" /> Fresh</label>
+      </div>
+      <div class="filter-group">
+        <h4>By Release</h4>
+        <label for="new-release"><input type="checkbox" id="new-release" name="release" value="new-release" /> New Releases (2025)</label>
+      </div>
+    </aside>
+
+    <!-- Product Grid -->
+    <section class="product-grid" id="product-grid">
+      <!-- Dior Sauvage Elixir -->
+      <a href="https://www.dior.com/en_us/fragrance/mens-fragrance/sauvage" target="_blank" class="product-card" rel="noopener noreferrer" data-season="winter" data-scent="spicy,woody" data-release="new-release">
+        <img src="https://cdn.dior.com/couture/ecommerce/media/catalog/product/cache/1/image/700x800/040ec09b1e35df139433887a97daa66f/d/i/diormansauvageparfum.png" alt="Dior Sauvage Elixir bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Dior+Sauvage';">
+        <div class="brand-logo"><img src="https://www.dior.com/couture/themes/custom/dior/logo.svg" alt="Dior logo" onerror="this.src='https://via.placeholder.com/100x50?text=Dior';"></div>
+        <div class="product-name">Dior Sauvage Elixir</div>
+        <div class="product-price">From $164</div>
+        <div class="product-description">A bold, intense fragrance with spicy and woody notes, perfect for evening wear. New 2025 release.</div>
+      </a>
+
+      <!-- Parfums de Marly Perseus -->
+      <a href="https://parfums-de-marly.com/products/perseus" target="_blank" class="product-card" rel="noopener noreferrer" data-season="spring,summer" data-scent="citrus,fresh" data-release="new-release">
+        <img src="https://www.parfums-de-marly.com/cdn/shop/products/PDM_PERSEUS_75ML_1.jpg" alt="Parfums de Marly Perseus bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Parfums+de+Marly';">
+        <div class="brand-logo"><img src="https://www.parfums-de-marly.com/cdn/shop/files/logo-parfums-de-marly.svg" alt="Parfums de Marly logo" onerror="this.src='https://via.placeholder.com/100x50?text=Marly';"></div>
+        <div class="product-name">Parfums de Marly Perseus</div>
+        <div class="product-price">From $200</div>
+        <div class="product-description">Bright and clean with bergamot and tonka bean, ideal for summer. New 2025 release.</div>
+      </a>
+
+      <!-- Chanel Bleu de Chanel -->
+      <a href="https://www.chanel.com/us/fragrance/mens-fragrance/bleu-de-chanel/" target="_blank" class="product-card" rel="noopener noreferrer" data-season="all" data-scent="woody,citrus">
+        <img src="https://images.chanel.com/is/image/CHANEL/000000000000000013_1200x1200_1.jpg" alt="Chanel Bleu de Chanel bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Chanel+Bleu';">
+        <div class="brand-logo"><img src="https://www.chanel.com/etc.clientlibs/chanel/clientlibs/core/resources/images/chanel-logo.svg" alt="Chanel logo" onerror="this.src='https://via.placeholder.com/100x50?text=Chanel';"></div>
+        <div class="product-name">Bleu de Chanel Parfum</div>
+        <div class="product-price">From $130</div>
+        <div class="product-description">A refined woody and citrus scent, versatile for day or night.</div>
+      </a>
+
+      <!-- Creed Aventus -->
+      <a href="https://www.creedboutique.com/products/aventus" target="_blank" class="product-card" rel="noopener noreferrer" data-season="all" data-scent="fruity,woody">
+        <img src="https://www.creedboutique.com/cdn/shop/products/Aventus_100ml.jpg" alt="Creed Aventus bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Creed+Aventus';">
+        <div class="brand-logo"><img src="https://www.creedboutique.com/cdn/shop/files/creed-logo.png" alt="Creed logo" onerror="this.src='https://via.placeholder.com/100x50?text=Creed';"></div>
+        <div class="product-name">Creed Aventus</div>
+        <div class="product-price">From $295</div>
+        <div class="product-description">A bold blend of pineapple, birch, and musk, symbolizing strength.</div>
+      </a>
+
+      <!-- Gucci Guilty Pour Homme -->
+      <a href="https://www.gucci.com/us/en/ca/fragrances-for-men-c-men" target="_blank" class="product-card" rel="noopener noreferrer" data-season="fall,winter" data-scent="woody,spicy">
+        <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1625828597/597367_99_0133_002_100_0000_Light-Gucci-Guilty-Pour-Homme-Eau-de-Toilette.jpg" alt="Gucci Guilty Pour Homme bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Gucci+Guilty';">
+        <div class="brand-logo"><img src="https://www.gucci.com/static-assets/logo-gucci.svg" alt="Gucci logo" onerror="this.src='https://via.placeholder.com/100x50?text=Gucci';"></div>
+        <div class="product-name">Gucci Guilty Pour Homme</div>
+        <div class="product-price">From $80</div>
+        <div class="product-description">A warm, spicy fragrance with woody undertones, great for cooler seasons.</div>
+      </a>
+
+      <!-- Yves Saint Laurent MYSLF -->
+      <a href="https://www.yslbeautyus.com/fragrance/mens-fragrance.html" target="_blank" class="product-card" rel="noopener noreferrer" data-season="all" data-scent="floral,woody" data-release="new-release">
+        <img src="https://www.yslbeautyus.com/dw/image/v2/BDKH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0ae1a0dc/images/170x220/3614271460111_YSL.jpg" alt="Yves Saint Laurent MYSLF bottle" onerror="this.src='https://via.placeholder.com/200x200?text=YSL+MYSLF';">
+        <div class="brand-logo"><img src="https://www.yslbeautyus.com/dw/image/v2/BDKH_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0ae1a0dc/images/logo/ysl-logo.svg" alt="YSL logo" onerror="this.src='https://via.placeholder.com/100x50?text=YSL';"></div>
+        <div class="product-name">Yves Saint Laurent MYSLF</div>
+        <div class="product-price">From $95</div>
+        <div class="product-description">A modern floral with orange blossom and vanilla, perfect for spring. New 2025 release.</div>
+      </a>
+
+      <!-- Lacoste L.12.12 Steel -->
+      <a href="https://www.lacoste.com/us/en/fragrances/men" target="_blank" class="product-card" rel="noopener noreferrer" data-season="spring,summer" data-scent="fresh,woody" data-release="new-release">
+        <img src="https://www.lacoste.com/on/demandware.static/-/Sites-lacoste-master-catalog/default/dw6f8c8f0e/images/PDV0016-1A00629-1N020_SLF.png" alt="Lacoste L.12.12 Steel bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Lacoste+Steel';">
+        <div class="brand-logo"><img src="https://www.lacoste.com/on/demandware.static/-/Sites-lacoste-master-catalog/default/dw0ae1a0dc/images/logo/lacoste-logo.svg" alt="Lacoste logo" onerror="this.src='https://via.placeholder.com/100x50?text=Lacoste';"></div>
+        <div class="product-name">Lacoste L.12.12 Steel</div>
+        <div class="product-price">From $85</div>
+        <div class="product-description">A metallic, fresh fougère with tangerine and vetiver, ideal for summer. New 2025 release.</div>
+      </a>
+
+      <!-- Tom Ford Oud Wood -->
+      <a href="https://www.tomford.com/fragrance/mens-fragrance/" target="_blank" class="product-card" rel="noopener noreferrer" data-season="fall,winter" data-scent="woody,amber">
+        <img src="https://media.tomford.com/media/wysiwyg/products/620x620/FOR_MEN_20180607_FEA_3.jpg" alt="Tom Ford Oud Wood bottle" onerror="this.src='https://via.placeholder.com/200x200?text=Tom+Ford+Oud';">
+        <div class="brand-logo"><img src="https://www.tomford.com/on/demandware.static/-/Sites-tomford-master-catalog/default/dw0ae1a0dc/images/logo/tom-ford-logo.svg" alt="Tom Ford logo" onerror="this.src='https://via.placeholder.com/100x50?text=Tom+Ford';"></div>
+        <div class="product-name">Tom Ford Oud Wood</div>
+        <div class="product-price">From $125</div>
+        <div class="product-description">A luxurious woody scent with oud and amber, perfect for evening.</div>
+      </a>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us: <a href="mailto:info@fragrancefinder.com">info@fragrancefinder.com</a></p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms</a> | 
+      <a href="faq.html">FAQ</a>
+    </p>
+    <form action="/subscribe" method="POST">
+      <label for="newsletter" class="visually-hidden">Subscribe to our newsletter</label>
+      <input type="email" id="newsletter" name="newsletter" placeholder="Email address" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p>© <span id="year"></span> Fragrance Finder</p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Find your perfect fragrance for every season at Fragrance Finder" />
+  <title>Fragrance Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Fragrance Finder</div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="men.html">Men’s</a></li>
+        <li><a href="womens.html">Women’s</a></li>
+        <li><a href="seasonal.html">Seasonal</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main style="flex: 1; padding: 40px 32px; text-align: center;">
+    <h1>Welcome to Fragrance Finder</h1>
+    <p>Your perfect scent awaits for every season.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us: <a href="mailto:info@fragrancefinder.com">info@fragrancefinder.com</a></p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms</a> | 
+      <a href="faq.html">FAQ</a>
+    </p>
+    <form action="/subscribe" method="POST">
+      <label for="newsletter" class="visually-hidden">Subscribe to our newsletter</label>
+      <input type="email" id="newsletter" name="newsletter" placeholder="Email address" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p>© <span id="year"></span> Fragrance Finder</p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

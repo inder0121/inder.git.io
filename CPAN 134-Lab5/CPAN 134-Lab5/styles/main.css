@@ -1,0 +1,190 @@
+/* Base styles */
+body {
+  font-family: sans-serif;
+  background: url("../images/bats.gif") repeat;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 800px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+header {
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 2px solid black;
+  background: linear-gradient(45deg, white, orange 60%, black);
+}
+
+header img {
+  float: left;
+  margin-right: 15px;
+  max-width: 50px;
+}
+
+header h1 {
+  font-style: italic;
+  color: black;
+  text-shadow: 2px 2px black;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 2em;
+}
+
+header h2 {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+
+header a img {
+  max-width: 100%;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Navigation */
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  background-color: #333;
+  margin: 0 0 20px 0;
+}
+
+.nav-menu li {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-menu a.current {
+  color: orange;
+}
+
+.nav-menu a:hover {
+  background-color: gray;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  min-width: 150px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu a {
+  display: block;
+  background-color: orange;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.sidebar-menu a:hover,
+.sidebar-menu a:focus {
+  background-color: darkorange;
+  color: white;
+}
+
+section {
+  flex: 3;
+}
+
+section h2 {
+  font-size: 1.5em;
+}
+
+section .dropcap {
+  font-size: 2.5em;
+  float: left;
+  line-height: 1;
+  margin-right: 5px;
+}
+
+section h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+section a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section a:hover,
+section a:focus {
+  color: green;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px;
+  border-top: 2px solid black;
+  background: linear-gradient(45deg, black, orange 40%, white);
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+  body {
+    background: none;
+    border: none;
+    font-size: 0.5em;
+  }
+  .container {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  header h2 {
+    font-size: 1em;
+  }
+  section h2 {
+    font-size: 1.2em;
+  }
+}

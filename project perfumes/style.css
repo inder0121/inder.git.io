@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #333333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+header {
+  background-color: #4B0082;
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #B19CD9;
+}
+
+/* Responsive menu (for mobile) */
+@media (max-width: 600px) {
+  nav ul {
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 12px;
+  }
+}
+
+/* Footer styles */
+footer {
+  background-color: #333333;
+  color: #FAFAFA;
+  padding: 24px 32px;
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #B19CD9;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #4CAF50;
+}
+
+footer form {
+  margin: 16px 0;
+}
+
+footer input[type="email"] {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  width: 220px;
+  max-width: 80%;
+  font-size: 1rem;
+}
+
+footer button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 9px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #388E3C;
+}
